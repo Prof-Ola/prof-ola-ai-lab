@@ -4,7 +4,7 @@ import numpy as np
 from pathlib import Path
 
 # Load local embedding model
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+model = SentenceTransformer("BAAI/bge-small-en-v1.5")
 
 # Locate notes file
 notes_path = Path(__file__).parent / "research_notes.txt"

@@ -2,8 +2,15 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-# Load a small local embedding model
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+# --------------------------------------------------
+# Lesson 08: Semantic Search Application
+# ResearchLab version using BAAI BGE-small embeddings
+# --------------------------------------------------
+
+MODEL_NAME = "BAAI/bge-small-en-v1.5"
+
+print("\nLoading embedding model...")
+model = SentenceTransformer(MODEL_NAME)
 
 # Small research knowledge base
 documents = [
@@ -33,29 +40,39 @@ documents = [
     }
 ]
 
-# Extract document texts
+# Extract document text
 texts = [doc["text"] for doc in documents]
 
-# Create embeddings for the documents
-document_embeddings = model.encode(texts)
+# Create document embeddings
+# normalize_embeddings=True improves cosine similarity comparison
+document_embeddings = model.encode(texts, normalize_embeddings=True)
 
 print("\nResearch Semantic Search App")
+print(f"Model: {MODEL_NAME}")
+print(f"Loaded {len(documents)} research documents.")
 print("Type 'exit' to stop.\n")
 
 while True:
     query = input("Ask a research question: ")
 
-    if query.lower() in ["exit", "quit", "stop"]:
+    if query.lower().strip() in ["exit", "quit", "stop"]:
         print("Search session ended.")
         break
 
-    # Create embedding for the user query
-    query_embedding = model.encode([query])
+    if not query.strip():
+        print("Please enter a valid research question.\n")
+        continue
 
-    # Compare query embedding with document embeddings
+    # BGE models perform better when queries use this retrieval prefix
+    search_query = f"Represent this sentence for searching relevant passages: {query}"
+
+    # Create query embedding
+    query_embedding = model.encode([search_query], normalize_embeddings=True)
+
+    # Compare query with document embeddings
     similarities = cosine_similarity(query_embedding, document_embeddings)[0]
 
-    # Get top 3 most similar documents
+    # Return top 3 results
     top_indices = np.argsort(similarities)[::-1][:3]
 
     print("\nTop Results:\n")
