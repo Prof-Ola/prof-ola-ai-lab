@@ -1,0 +1,19 @@
+Edible coatings can reduce postharvest losses in tomatoes by slowing moisture loss, reducing respiration rate, delaying ripening, and limiting microbial decay.
+
+Computer vision can help determine fruit harvest maturity by analysing external features such as colour, size, surface texture, shape, and visible defects.
+
+Optimum harvest time refers to the stage when a crop has reached the best balance between physiological maturity, market quality, shelf life, and consumer acceptability.
+
+Near-infrared spectroscopy can estimate internal fruit quality attributes such as soluble solids content, dry matter, firmness, acidity, and moisture content without destroying the fruit.
+
+Artificial intelligence models can support harvest decision-making by learning relationships between visual, spectral, environmental, and physiological indicators of maturity.
+
+Smallholder farmers in low- and middle-income countries often face barriers such as limited cold storage, weak internet connectivity, high technology cost, limited technical expertise, and weak agricultural extension support.
+
+Warm-chain conditions accelerate respiration, water loss, microbial growth, softening, and quality deterioration in fresh horticultural crops.
+
+Smartphone-based AI tools may provide low-cost decision support for farmers by helping with harvest timing, crop grading, disease diagnosis, and market readiness assessment.
+
+Resource-constrained environments require AI tools that are affordable, offline-capable, easy to use, locally validated, and compatible with existing farming practices.
+
+AI-enabled harvest maturity tools can reduce postharvest losses only when they are linked to practical decisions such as when to harvest, how to sort, where to sell, and how to handle produce after harvest.
