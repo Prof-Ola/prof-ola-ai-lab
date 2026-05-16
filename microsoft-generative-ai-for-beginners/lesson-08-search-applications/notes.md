@@ -10,13 +10,13 @@ Instead of searching YouTube transcripts, I built a semantic search app for rese
 
 ## Key Concepts Practised
 
-- Semantic search
-- Keyword search versus meaning-based search
-- Text embeddings
-- Vector representations
-- Cosine similarity
-- Local embedding models
-- Ranking search results by similarity score
+* Semantic search
+* Keyword search versus meaning-based search
+* Text embeddings
+* Vector representations
+* Cosine similarity
+* Local embedding models
+* Ranking search results by similarity score
 
 ## Build Completed
 
@@ -25,3 +25,24 @@ Research Semantic Search App using sentence-transformers and cosine similarity.
 ## Main Lesson
 
 A search application can convert both documents and user questions into vectors, compare them mathematically, and return the most relevant content based on meaning.
+
+
+
+\## Build 4: CSV RAG Answer Generator
+
+
+
+I built a mini-RAG app that searches a structured CSV literature database using local BGE-small embeddings, retrieves the most relevant records, and sends them to Claude to generate grounded answers.
+
+
+
+The app successfully answered questions on tomato harvest maturity and AI adoption barriers in LMIC agriculture. It retrieved relevant records with high similarity scores and generated structured answers with direct responses, supporting evidence, practical implications, and limitations.
+
+
+
+This demonstrates the full retrieval-augmented generation pipeline:
+
+
+
+User question → semantic search → retrieved records → grounded AI answer.
+
