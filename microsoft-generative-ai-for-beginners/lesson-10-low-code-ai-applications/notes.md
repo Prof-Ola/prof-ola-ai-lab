@@ -1,0 +1,27 @@
+# Lesson 10: Building Low-Code AI Applications
+
+## Microsoft Course Concept
+
+This lesson introduces low-code AI development using Microsoft Power Platform. It covers Power Apps, Dataverse, Power Automate, AI Builder, and Copilot.
+
+## My Adaptation
+
+To reduce paywall risk, I adapted the lesson into a Google AppSheet and Google Sheets workflow. This maps the Microsoft lesson concepts into a more accessible prototype route.
+
+## Microsoft to AppSheet Mapping
+
+| Microsoft Tool | Paywall-Safe Alternative |
+|---|---|
+| Dataverse | Google Sheets |
+| Power Apps | Google AppSheet |
+| Power Automate | AppSheet Automation or n8n |
+| AI Builder | Claude, Gemini, ChatGPT, or local AI helper |
+| Copilot prompts | Custom solution blueprint prompts |
+
+## Build Completed
+
+AppSheet Solution Blueprint Builder.
+
+## Main Lesson
+
+Low-code AI development still requires clear thinking about the problem, users, data model, app actions, automations, AI use cases, risks, and success outcomes.
