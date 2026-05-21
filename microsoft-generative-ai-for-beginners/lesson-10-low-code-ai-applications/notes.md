@@ -33,3 +33,11 @@ I built an automation prompt generator for AppSheet, n8n, Power Automate, and AI
 This app generates automation blueprints based on trigger events, data sources, conditions, actions, recipients, message purposes, AI assistance needs, and success outcomes.
 
 This build maps the Microsoft Power Automate lesson concept into a paywall-safer workflow planning tool that can be used with AppSheet Automation, n8n, or Power Automate when available.
+
+## Build 4: AI Workflow Message Generator
+
+I built an AI message draft generator for low-code workflow automations.
+
+The app generates email subjects, short emails, detailed emails, WhatsApp-style messages, internal log summaries, and AI prompts for workflow tools.
+
+This maps the Microsoft lesson concept of using text generation in Power Automate into a paywall-safer workflow that can support AppSheet Automation, n8n, Power Automate, Zapier, Make, or other automation tools.
