@@ -50,3 +50,11 @@ Research Image Prompt Builder.
 
 A strong image generation application does not only pass user text directly to an image model. It should shape the request using meta prompts, style constraints, audience needs, and safety boundaries.
 
+
+
+\## Build 2: Prompt Builder + Save Prompt to File
+
+
+
+I upgraded the Research Image Prompt Builder so that it now saves each generated image prompt to a text file. This makes it possible to build a reusable prompt library for future LinkedIn graphics, grant visuals, scientific figure concepts, and other research communication assets.
+

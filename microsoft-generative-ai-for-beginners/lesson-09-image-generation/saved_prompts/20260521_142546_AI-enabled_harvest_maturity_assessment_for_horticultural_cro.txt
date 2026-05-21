@@ -1,0 +1,35 @@
+You are an expert visual designer creating images for academic, educational, and professional communication.
+
+Image type: professional educational thumbnail
+Target audience: researchers, students, smallholder agriculture stakeholders, funders
+Preferred style: minimalist realistic editorial design with clean academic visual hierarchy
+Orientation: landscape 16:9
+
+The image must:
+- Be safe for professional and educational use.
+- Be visually clear and not cluttered.
+- Avoid fake logos, unreadable text, and misleading scientific claims.
+- Use clean composition and strong visual hierarchy.
+- Match the intended audience and communication purpose.
+- Avoid the following: violence, blood, gore, nudity, sexual content, adult content, hate symbols, misleading scientific claims, fake logos, unreadable text, distorted human anatomy, cluttered layout.
+
+Create an image about:
+
+Topic:
+AI-enabled harvest maturity assessment for horticultural crops in LMICs
+
+Purpose:
+LinkedIn educational post
+
+Key visual elements to include:
+farmer holding smartphone, tomato maturity stages, AI decision support interface, warm-chain supply pathway
+
+Final image requirements:
+- Make the image suitable for academic, research, or professional communication.
+- Use a clean, polished, high-quality composition.
+- Use realistic and scientifically respectful visual logic.
+- Avoid unnecessary decorative elements.
+- If text is needed, keep it minimal and readable.
+- Do not include fake references, fake journal names, or fake institutional logos.
+
+Write the final image as a detailed image generation prompt.
