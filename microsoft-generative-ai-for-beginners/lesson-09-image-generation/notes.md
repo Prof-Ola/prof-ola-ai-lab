@@ -74,3 +74,31 @@ This app uses meta prompts to define safety, style, audience, platform, brand id
 
 This extends the Lesson 9 concept of image generation into a practical research communication and personal branding workflow.
 
+
+
+\## Build 4: Thumbnail Prompt Specialist
+
+
+
+I built a specialized thumbnail prompt generator for LinkedIn, FRIN, newsletter, academic, and professional communication visuals.
+
+
+
+The app captures the topic, headline, target audience, purpose, key visuals, platform, brand style, colour palette, emotional tone, and orientation. It then generates a structured image generation prompt and saves it to a reusable prompt archive.
+
+
+
+This supports research communication, academic visibility, FRIN content, and professional branding workflows.
+
+
+
+\## Lesson 09 Summary
+
+
+
+This lesson demonstrated that image generation applications require more than simple text-to-image prompting. A useful application should guide the user through image purpose, target audience, visual style, safety boundaries, orientation, and output requirements.
+
+
+
+My adaptation focused on building reusable prompt-generation tools for academic, research, and professional communication.
+
