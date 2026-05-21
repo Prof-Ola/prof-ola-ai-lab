@@ -76,8 +76,8 @@ def search_research_records(topic="", crop="", method="", context=""):
             record["finding"]
         ]).lower()
 
-        if not query_terms or any(term in searchable_text for term in query_terms):
-            results.append(record)
+        if not query_terms or all(term in searchable_text for term in query_terms):
+    results.append(record)
 
     return {
         "matches_found": len(results),
@@ -89,6 +89,9 @@ def generate_research_question(topic="", crop="", context=""):
     if not topic:
         topic = "AI-enabled agricultural decision support"
 
+if "harvest maturity" in topic.lower() and "ai" not in topic.lower():
+    topic = "AI-enabled harvest maturity assessment"
+
     if not crop:
         crop = "horticultural crops"
 
@@ -97,7 +100,7 @@ def generate_research_question(topic="", crop="", context=""):
 
     return {
         "research_question": f"How can {topic} improve postharvest decision-making for {crop} in {context}?",
-        "working_title": f"{topic.title()} for {crop.title()} in {context.title()}",
+        "working_title": f"{topic} for {crop} in {context}",
         "possible_contribution": "This study could clarify the technical and implementation pathways for using AI to reduce postharvest losses and improve value-chain decisions."
     }
 
