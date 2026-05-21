@@ -25,3 +25,11 @@ AppSheet Solution Blueprint Builder.
 ## Main Lesson
 
 Low-code AI development still requires clear thinking about the problem, users, data model, app actions, automations, AI use cases, risks, and success outcomes.
+
+## Build 3: AppSheet Automation Prompt Generator
+
+I built an automation prompt generator for AppSheet, n8n, Power Automate, and AI-assisted workflow messages.
+
+This app generates automation blueprints based on trigger events, data sources, conditions, actions, recipients, message purposes, AI assistance needs, and success outcomes.
+
+This build maps the Microsoft Power Automate lesson concept into a paywall-safer workflow planning tool that can be used with AppSheet Automation, n8n, or Power Automate when available.
