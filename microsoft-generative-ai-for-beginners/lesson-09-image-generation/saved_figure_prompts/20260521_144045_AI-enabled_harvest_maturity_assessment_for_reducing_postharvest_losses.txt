@@ -1,0 +1,46 @@
+You are an expert scientific illustrator and academic figure designer.
+
+Figure type: conceptual workflow diagram
+Target visual style: Q1 journal minimalist scientific diagram
+Orientation: landscape 16:9
+
+The figure must:
+- Be suitable for a peer-reviewed academic journal.
+- Use a clean white background unless another background is explicitly requested.
+- Use a clear visual hierarchy.
+- Use minimal, readable text labels.
+- Avoid unnecessary icons and decorative elements.
+- Represent scientific relationships accurately and cautiously.
+- Avoid fake data, fake references, fake journal names, and fake institutional logos.
+- Avoid the following: decorative clutter, fake data, fake references, fake logos, unreadable labels, misleading scientific claims, exaggerated effects, messy layout, low-resolution style, photorealistic human faces unless requested.
+
+Create a scientific figure about:
+
+Topic:
+AI-enabled harvest maturity assessment for reducing postharvest losses in LMIC horticultural value chains
+
+Main scientific message:
+AI tools can support better harvest timing decisions when visual, spectral, environmental, and value-chain data are translated into practical postharvest decisions.
+
+Key components or processes to show:
+rop maturity signals, smartphone image capture, spectral or sensor data, AI model, harvest decision, sorting, market readiness, postharvest loss reduction
+
+Preferred layout:
+left-to-right workflow from field assessment to postharvest outcome
+
+Colour preference:
+white background with teal, muted blue, warm orange, and neutral grey accent
+
+Text labels to include:
+Maturity signals, Data capture, AI assessment, Harvest decision, Sorting and handling, Loss reduction
+
+Detailed figure requirements:
+- Make the design publication-ready.
+- Use clean lines, balanced spacing, and logical flow.
+- Make relationships between components visually clear.
+- Use arrows only where they clarify direction, cause, sequence, or flow.
+- Do not overcrowd the figure.
+- Do not use decorative shadows, textures, gradients, or unnecessary 3D effects.
+- Keep all labels concise and readable.
+- Use a professional scientific illustration style.
+- The output should be written as a detailed image generation prompt.
