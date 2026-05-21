@@ -1,0 +1,3 @@
+PersonID,FullName,Role,Email,Phone,Organization
+P001,Professor Ola,Lead Researcher,example@email.com,,ResearchLab
+P002,Collaborator Name,Collaborator,collaborator@email.com,,Partner Institution

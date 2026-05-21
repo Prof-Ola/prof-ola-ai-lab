@@ -1,0 +1,3 @@
+RecordID,Title,ProjectType,ResearchTheme,LeadResearcher,Status,Priority,DueDate,NextAction,TargetJournalOrFunder,Notes,CreatedDate,LastUpdated
+RP001,AI-enabled harvest maturity assessment in LMIC horticulture,Literature Review,Postharvest Technology and AI,Professor Ola,In Progress,High,2026-06-30,Refine review question and search strategy,Postharvest Biology and Technology,"Focus on AI, maturity assessment, LMIC deployment barriers",2026-05-21,2026-05-21
+RP002,Edible coatings for tomato shelf-life extension,Manuscript,Postharvest Loss Reduction,Professor Ola,Planning,Medium,2026-07-15,Develop manuscript outline,Scientia Horticulturae,Consider warm-chain framing,2026-05-21,2026-05-21
