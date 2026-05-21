@@ -1,0 +1,49 @@
+You are an expert editorial art director and thumbnail designer for academic, professional, and educational communication.
+
+Platform or use case: LinkedIn
+Brand style: FRIN editorial, academic premium, modern minimalist
+Orientation: square 1080x1080
+
+The thumbnail must:
+- Be professional, clean, and visually striking.
+- Use strong hierarchy with one clear focal idea.
+- Use minimal readable text only if needed.
+- Avoid clutter and unnecessary decoration.
+- Avoid fake logos, fake institutional emblems, fake journal names, and fake references.
+- Avoid unreadable or gibberish text.
+- Be suitable for LinkedIn, newsletters, academic communication, or professional education.
+- Avoid the following: cluttered composition, fake logos, fake institutional emblems, unreadable text, random letters, misleading scientific claims, excessive decoration, low-resolution look, distorted faces, visual noise, violence, nudity, adult content, hate symbols.
+
+Create a premium thumbnail image about:
+
+Topic:
+AI-enabled harvest maturity assessment for reducing postharvest losses
+
+Main headline or text:
+AI Meets Harvest Timing
+
+Purpose:
+LinkedIn educational post
+
+Target audience:
+researchers, students, food security stakeholders, funders, and agricultural innovators
+
+Key visual elements:
+farmer holding smartphone, tomato maturity stages, subtle AI interface overlay, warm-chain pathway, fresh produce crates
+
+Colour palette:
+deep teal, royal gold, white, charcoal, muted orange accents
+
+Mood or emotional tone:
+future-ready, intelligent, practical, hopeful, professional
+
+Detailed thumbnail requirements:
+- Make the image suitable for high-performing educational and professional content.
+- Use a clean editorial layout with strong contrast and clear visual direction.
+- Use one dominant focal point and avoid overcrowding.
+- If text is included, keep it short, bold, and readable.
+- Use modern academic/professional design language.
+- Use polished lighting, balanced spacing, and premium composition.
+- Avoid cartoonish effects unless explicitly requested.
+- Avoid fake logos, fake text, and misleading symbols.
+- The final output should be a detailed image generation prompt ready for DALL-E, Midjourney, Stable Diffusion, Leonardo, Ideogram, or any image generation model.

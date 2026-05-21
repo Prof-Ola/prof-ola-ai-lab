@@ -58,3 +58,19 @@ A strong image generation application does not only pass user text directly to a
 
 I upgraded the Research Image Prompt Builder so that it now saves each generated image prompt to a text file. This makes it possible to build a reusable prompt library for future LinkedIn graphics, grant visuals, scientific figure concepts, and other research communication assets.
 
+
+
+\## Build 4: Thumbnail Prompt Specialist
+
+
+
+I built a specialized thumbnail prompt generator for LinkedIn, FRIN, newsletter, academic, and professional communication visuals.
+
+
+
+This app uses meta prompts to define safety, style, audience, platform, brand identity, colour palette, mood, and visual hierarchy before producing a detailed image generation prompt.
+
+
+
+This extends the Lesson 9 concept of image generation into a practical research communication and personal branding workflow.
+
