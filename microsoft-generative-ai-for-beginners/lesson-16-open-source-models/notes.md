@@ -57,3 +57,21 @@ The app recommends whether a model should be deployed locally, through a hosted 
 The recommendation is based on privacy, budget, hardware, expected users, latency, maintenance capacity, risk level, and deployment preference.
 
 This supports Lesson 16 by connecting open model selection to practical deployment planning.
+
+## Build 4: Open Model Deployment Strategy Planner
+
+I built an open model deployment strategy planner.
+
+The app recommends whether a model should be deployed locally, through a hosted open model API, through cloud deployment, as part of a hybrid model stack, or with a proprietary API fallback.
+
+The recommendation is based on privacy, budget, hardware, expected users, latency, maintenance capacity, risk level, and deployment preference.
+
+This completes the Lesson 16 model strategy loop:
+
+Choose strategy → compare models → test models → plan deployment.
+
+## Lesson 16 Summary
+
+This lesson helped me understand the value of open models, including flexibility, customization, cost control, and local/private deployment options.
+
+The main lesson is that model selection should be based on use case, task performance, cost, quality, privacy, latency, hardware, licensing, and deployment strategy, not popularity.
