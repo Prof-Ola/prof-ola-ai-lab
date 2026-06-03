@@ -31,3 +31,10 @@ Fine-Tuning Decision Advisor.
 ## Main Lesson
 
 Fine-tuning should not be the first solution. It should be used only when simpler approaches have been tested, enough high-quality examples are available, evaluation metrics are ready, and the expected benefit outweighs cost, complexity, and maintenance.
+## Build 2: Fine-Tuning Dataset Readiness Checker
+
+I built a fine-tuning dataset readiness checker.
+
+The app evaluates whether a dataset is ready for fine-tuning based on example quantity, input-output quality, format consistency, domain relevance, duplicate checking, bias checking, sensitive data review, human review, validation data, evaluation data, baseline availability, expected behavior, deployment purpose, and cost estimation.
+
+This supports Lesson 18 by emphasizing that fine-tuning requires curated, high-quality, reviewed data rather than random examples.
