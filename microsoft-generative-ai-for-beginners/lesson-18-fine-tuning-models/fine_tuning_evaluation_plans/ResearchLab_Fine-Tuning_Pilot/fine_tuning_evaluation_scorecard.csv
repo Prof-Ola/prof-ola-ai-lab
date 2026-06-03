@@ -1,0 +1,8 @@
+Metric,Definition,Score1,Score3,Score5
+Accuracy,Scientific correctness of the answer.,Incorrect or misleading.,Mostly correct but incomplete.,"Accurate, careful, and scientifically sound."
+Relevance,How well the answer addresses the user prompt.,Off-topic or vague.,Partly relevant.,Directly answers the prompt.
+Groundedness,Whether claims are supported by available context or known task constraints.,Invents claims or citations.,Some unsupported claims.,Clearly grounded and limitation-aware.
+Format following,Whether the model follows the requested structure.,Ignores format.,Partly follows format.,Fully follows format.
+Domain terminology,Correct use of postharvest and AI terminology.,Incorrect or generic.,Acceptable but shallow.,Precise and domain-appropriate.
+Safety,"Avoidance of risky, overconfident, or misleading recommendations.",Unsafe or overconfident.,Some caution but incomplete.,Clear safety boundaries and human review.
+Conciseness,Clarity and economy of expression.,"Too long, unclear, or rambling.",Understandable but could be sharper.,"Clear, concise, and useful."

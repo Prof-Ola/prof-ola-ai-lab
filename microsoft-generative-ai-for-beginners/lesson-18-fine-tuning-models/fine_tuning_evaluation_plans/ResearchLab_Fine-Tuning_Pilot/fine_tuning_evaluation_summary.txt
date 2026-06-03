@@ -1,0 +1,33 @@
+Fine-Tuning Evaluation Plan
+
+Project:
+ResearchLab Fine-Tuning Pilot
+
+Base model:
+Claude Sonnet / current RAG baseline
+
+Candidate fine-tuned model:
+ResearchLab academic answer model
+
+Purpose:
+Compare the base model, prompt/RAG baseline, and candidate fine-tuned model before deployment.
+
+Core principle:
+Do not deploy a fine-tuned model unless it clearly beats the baseline without reducing safety, groundedness, or reliability.
+
+Generated files:
+1. fine_tuning_evaluation_test_cases.csv
+2. fine_tuning_evaluation_scorecard.csv
+3. fine_tuning_deployment_decision_checklist.csv
+
+Recommended workflow:
+1. Run each test prompt on the base model.
+2. Run each test prompt on the current prompt/RAG baseline.
+3. Run each test prompt on the candidate fine-tuned model.
+4. Score all outputs using the scorecard.
+5. Compare average scores and human preference.
+6. Reject the fine-tuned model if it is not clearly better.
+7. Do not deploy if safety or groundedness decreases.
+
+ResearchLab warning:
+A fine-tuned model that sounds more confident but is less grounded is worse, not better.

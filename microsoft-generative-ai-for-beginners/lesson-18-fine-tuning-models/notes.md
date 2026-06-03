@@ -48,3 +48,18 @@ The app creates chat-style JSONL examples with system, user, and assistant messa
 The app also validates the example structure before saving the output as JSONL and readable JSON.
 
 This supports Lesson 18 by showing that fine-tuning requires structured, curated, reviewed examples rather than raw notes or unformatted text.
+
+## Build 4: Fine-Tuning Evaluation Plan Generator
+
+I built a fine-tuning evaluation plan generator.
+
+The app creates CSV files for testing a base model, a prompt/RAG baseline, and a candidate fine-tuned model.
+
+It generates:
+- fine-tuning evaluation test cases
+- evaluation scorecard
+- deployment decision checklist
+- evaluation summary
+
+This supports Lesson 18 by ensuring that a fine-tuned model is only adopted if it clearly outperforms the baseline without reducing safety, groundedness, or reliability.
+

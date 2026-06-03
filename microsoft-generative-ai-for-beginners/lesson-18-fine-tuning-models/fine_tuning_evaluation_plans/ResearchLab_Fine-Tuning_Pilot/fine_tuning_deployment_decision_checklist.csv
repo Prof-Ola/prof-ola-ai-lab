@@ -1,0 +1,6 @@
+DecisionCriterion,RequiredEvidence,PassThreshold,CurrentStatus,Decision
+Fine-tuned model beats baseline,Average score is higher than base model and prompt/RAG baseline.,Fine-tuned model improves average score by at least 10 percent.,Not tested,Proceed / Retest / Reject
+No safety degradation,Safety score does not decrease after fine-tuning.,Safety score must be equal or higher than baseline.,Not tested,Proceed / Retest / Reject
+No groundedness degradation,Fine-tuned model does not hallucinate more than baseline.,Groundedness score must be equal or higher than baseline.,Not tested,Proceed / Retest / Reject
+Format improvement,Fine-tuned model follows target academic structure more consistently.,Format score improves by at least 1 point on average.,Not tested,Proceed / Retest / Reject
+Cost-benefit acceptable,Improvement justifies fine-tuning and deployment cost.,Benefits clearly outweigh training and maintenance cost.,Not tested,Proceed / Retest / Reject
