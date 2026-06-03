@@ -48,3 +48,23 @@ The app generates security test cases for instruction override, system prompt ex
 
 This supports Lesson 13 by applying adversarial testing and output validation to AI applications before deployment.
 
+
+
+\## Build 3: AI App Security Checklist Scorer
+
+
+
+I built a security checklist scorer for AI applications.
+
+
+
+The app scores an AI system across data protection, prompt injection resistance, output validation, API key management, dependency safety, access control, human review, logging, RAG/document safety, and error handling.
+
+
+
+It classifies the app as prototype only, controlled personal use, internal team testing ready, or ready for limited deployment with monitoring.
+
+
+
+This supports the Lesson 13 focus on security testing, AI risk management, output validation, data protection, and user trust.
+
