@@ -1,0 +1,6 @@
+Score,Meaning,Interpretation
+1,Poor,"Fails the task, unsafe, irrelevant, or unusable."
+2,Weak,Partly answers but has serious gaps or formatting issues.
+3,Acceptable,"Usable with human review, but needs improvement."
+4,Good,Strong output with minor issues.
+5,Excellent,"High-quality, reliable, safe, and task-fit output."

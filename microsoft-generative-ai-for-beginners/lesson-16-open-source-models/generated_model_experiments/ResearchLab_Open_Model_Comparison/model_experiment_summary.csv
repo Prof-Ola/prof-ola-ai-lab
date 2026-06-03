@@ -1,0 +1,7 @@
+ModelName,AverageQuality,AverageGroundedness,AverageFormatFollowing,AverageSafety,AverageSpeed,AverageCost,AveragePrivacyFit,AverageOverallFit,RecommendedUse,Decision
+llama3,,,,,,,,,To be decided after testing,Keep / Retest / Reject
+mistral,,,,,,,,,To be decided after testing,Keep / Retest / Reject
+qwen,,,,,,,,,To be decided after testing,Keep / Retest / Reject
+phi,,,,,,,,,To be decided after testing,Keep / Retest / Reject
+claude-sonnet,,,,,,,,,To be decided after testing,Keep / Retest / Reject
+gemini-pro,,,,,,,,,To be decided after testing,Keep / Retest / Reject

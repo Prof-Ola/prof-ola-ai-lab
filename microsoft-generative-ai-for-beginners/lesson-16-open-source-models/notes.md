@@ -37,3 +37,13 @@ I built an open model evaluation matrix generator.
 The app creates a CSV template for comparing proprietary and open models across cost, quality, privacy, latency, local deployability, fine-tuning potential, licensing, and fit for ResearchLab, Business Ops, and Trading Lab.
 
 This supports Lesson 16 by turning model selection into a structured evaluation process rather than choosing models based on hype or popularity.
+
+## Build 3: Local Model Experiment Planner
+
+I built a local model experiment planner.
+
+The app generates CSV files for testing open and proprietary models using the same prompts across ResearchLab, Business Ops, Trading Lab, RAG, function-calling, summarization, and safety tasks.
+
+It also creates a scoring guide and model experiment summary to support fair comparison across quality, groundedness, format following, safety, speed, cost, privacy, and overall fit.
+
+This supports Lesson 16 by turning open model exploration into a structured evaluation process.
