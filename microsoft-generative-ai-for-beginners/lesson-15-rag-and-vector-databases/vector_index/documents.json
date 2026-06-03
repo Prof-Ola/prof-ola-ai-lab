@@ -1,0 +1,12 @@
+[
+  {
+    "source_file": "harvest_maturity_notes.txt",
+    "chunk_id": "harvest_maturity_notes_chunk_1",
+    "text": "AI-enabled harvest maturity assessment can support better postharvest decision-making by combining visual, spectral, environmental, and physiological indicators. Computer vision can classify tomato maturity stages using external features such as colour, size, texture, and surface appearance. This can support low-cost decision-making in warm-chain horticultural systems. Near-infrared spectroscopy can estimate internal fruit quality attributes such as dry matter, soluble solids content, firmness, acidity, and moisture content without destroying the fruit. Smallholder farmers in LMICs often face barriers such as limited cold storage, weak internet connectivity, high technology costs, low technical capacity, and"
+  },
+  {
+    "source_file": "harvest_maturity_notes.txt",
+    "chunk_id": "harvest_maturity_notes_chunk_2",
+    "text": "in LMICs often face barriers such as limited cold storage, weak internet connectivity, high technology costs, low technical capacity, and weak extension support. RAG systems can reduce hallucination by grounding AI-generated answers in retrieved documents from a trusted knowledge base. A good RAG system should track relevance, groundedness, quality, fluency, latency, cost, and evidence limitations."
+  }
+]

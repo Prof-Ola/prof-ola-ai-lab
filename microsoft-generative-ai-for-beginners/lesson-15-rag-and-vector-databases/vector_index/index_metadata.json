@@ -1,0 +1,6 @@
+{
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "number_of_documents": 2,
+  "index_type": "NearestNeighbors cosine brute",
+  "notes": "Local vector index for Lesson 15 RAG practice."
+}
