@@ -57,3 +57,19 @@ The app retrieves relevant knowledge-base chunks, generates a grounded Claude an
 
 This supports RAG evaluation by tracking questions, retrieved chunks, similarity scores, generated answers, evaluation scores, and user notes.
 
+## Build 4: RAG Evaluation Logger
+
+I built a RAG evaluation logger.
+
+The app retrieves relevant knowledge-base chunks, generates a grounded Claude answer, asks the user to score groundedness, relevance, and limitation quality, then logs the interaction into a CSV file.
+
+This supports RAG evaluation by tracking questions, retrieved chunks, similarity scores, generated answers, evaluation scores, and user notes.
+
+## Lesson 15 Summary
+
+This lesson completed the full RAG workflow:
+
+Documents → chunks → embeddings → vector index → retrieval → grounded LLM answer → evaluation logging.
+
+The main lesson is that a strong RAG application requires not only retrieval and generation, but also evaluation, logging, and continuous improvement.
+
