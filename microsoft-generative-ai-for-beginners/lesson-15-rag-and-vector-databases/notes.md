@@ -38,3 +38,13 @@ I built a local RAG retriever that loads the saved vector index, embeds a user q
 This implements the retrieval stage of the RAG pipeline:
 
 User query → query embedding → vector index search → retrieved context.
+## Build 3: Local RAG + Claude Grounded Answer Generator
+
+I built a full local RAG answer generator.
+
+The app loads a local vector index, retrieves relevant chunks from the knowledge base, sends the retrieved context to Claude, and generates a grounded answer with supporting evidence and limitations.
+
+This completes the core RAG pipeline:
+
+Documents → chunks → embeddings → vector index → retrieval → context → grounded LLM answer.
+
