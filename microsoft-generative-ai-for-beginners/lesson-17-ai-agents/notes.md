@@ -59,3 +59,18 @@ The app saves agent state into a JSON file, including conversation history, task
 This improves the first local agent simulator by allowing the agent to remember previous tasks across sessions.
 
 This demonstrates one of the key parts of agent architecture: state management.
+
+## Build 4: Claude-Assisted Multi-Agent Research Meeting
+
+I built a Claude-assisted multi-agent research meeting simulator.
+
+The app uses Claude to simulate specialist agents:
+- Research Director
+- Postharvest Scientist
+- AI Engineer
+- Grant Strategist
+- Ethics and Risk Reviewer
+
+Each agent receives the same pitch and context, but responds from its assigned role. The app then uses Claude to synthesize all agent outputs into an integrated recommendation.
+
+This improves the fixed-template multi-agent simulator by making the agent responses dynamic, context-aware, and closer to the AutoGen-style agent concept introduced in the lesson.
