@@ -1,4 +1,6 @@
 .env
 venv/
 __pycache__/
-*.pyc
+*.pycmicrosoft-generative-ai-for-beginners/lesson-17-ai-agents/claude_multi_agent_meeting_records/ 
+microsoft-generative-ai-for-beginners/lesson-17-ai-agents/multi_agent_meeting_records/ 
+microsoft-generative-ai-for-beginners/lesson-17-ai-agents/agent_state/ 
