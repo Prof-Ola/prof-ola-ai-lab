@@ -49,3 +49,11 @@ I built an AI app version release planner.
 The app generates release plans that document current version, next version, release goal, features added, bugs fixed, metrics improved, risks reduced, known limitations, testing completed, deployment target, rollback plan, and release ownership.
 
 This supports the Lesson 14 lifecycle by helping move AI applications from prototype to improved versions through controlled release planning, testing, monitoring, and iteration.
+
+## Build 4: AI App Lifecycle Dashboard Data Generator
+
+I built an AI app lifecycle dashboard data generator.
+
+The app creates a master CSV file that tracks multiple AI Lab tools by app name, lesson number, version, lifecycle stage, purpose, users, AI features, data sources, metrics, risks, security status, UX status, next action, owner, priority, and review date.
+
+This supports the Lesson 14 lifecycle by turning individual AI builds into a managed AI application portfolio.
