@@ -39,3 +39,23 @@ Local Research Agent Simulator.
 ## Main Lesson
 
 An AI agent is not just a chatbot. It is an LLM-based system that can maintain state, choose tools, execute actions, store results, and continue working toward a user goal.
+
+## Build 2: Research Agent with Persistent State
+
+I built a persistent research agent.
+
+The app saves agent state into a JSON file, including conversation history, task memory, selected tools, tool results, and next actions.
+
+This improves the first local agent simulator by allowing the agent to remember previous tasks across sessions.
+
+This demonstrates one of the key parts of agent architecture: state management.
+
+## Build 2: Research Agent with Persistent State
+
+I built a persistent research agent.
+
+The app saves agent state into a JSON file, including conversation history, task memory, selected tools, tool results, and next actions.
+
+This improves the first local agent simulator by allowing the agent to remember previous tasks across sessions.
+
+This demonstrates one of the key parts of agent architecture: state management.
