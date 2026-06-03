@@ -1,0 +1,2 @@
+IncidentID,AppName,AppVersion,IncidentDate,IncidentType,Description,Severity,RootCause,ImmediateAction,LongTermFix,Status
+INC001,Research CSV RAG App,v0.1,2026-06-03,Prompt injection attempt,User asked the app to ignore previous instructions.,Medium,Unsafe user input,Refused unsafe request.,Strengthen system prompt and add injection test.,Open

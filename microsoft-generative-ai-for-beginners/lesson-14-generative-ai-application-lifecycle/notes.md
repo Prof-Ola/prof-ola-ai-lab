@@ -33,3 +33,11 @@ AI App Lifecycle Planner.
 ## Main Lesson
 
 A generative AI app is not finished when it works once. It must be evaluated, monitored, improved, secured, versioned, and governed throughout its lifecycle.
+
+## Build 2: LLMOps Metrics Tracker Generator
+
+I built an LLMOps metrics tracker generator.
+
+The app creates CSV templates for evaluation test cases, runtime monitoring, user feedback, risk incidents, and version changes.
+
+This supports the Lesson 14 focus on managing generative AI applications across their lifecycle by tracking quality, groundedness, safety, cost, latency, feedback, monitoring, and iteration.

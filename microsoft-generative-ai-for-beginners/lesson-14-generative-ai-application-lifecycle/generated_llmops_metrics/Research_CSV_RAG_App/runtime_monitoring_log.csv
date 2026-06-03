@@ -1,0 +1,2 @@
+RunID,AppName,AppVersion,RunDateTime,UserPrompt,ModelUsed,InputTokensEstimate,OutputTokensEstimate,LatencySeconds,EstimatedCost,Status,ErrorMessage,Notes
+RUN001,Research CSV RAG App,v0.1,2026-06-03,Generate a research question on harvest maturity for tomatoes in LMICs.,claude-sonnet-4-5,,,,,Success,,Manual entry or future automated logging.

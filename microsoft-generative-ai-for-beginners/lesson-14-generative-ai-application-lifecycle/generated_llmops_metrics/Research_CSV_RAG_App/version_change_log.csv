@@ -1,0 +1,2 @@
+Version,Date,ChangeType,Description,ReasonForChange,Tested,ApprovedBy,Notes
+v0.1,2026-06-03,Initial metrics setup,Created LLMOps metrics templates.,Need to track lifecycle performance and readiness.,No,Professor Ola,Start with manual tracking.

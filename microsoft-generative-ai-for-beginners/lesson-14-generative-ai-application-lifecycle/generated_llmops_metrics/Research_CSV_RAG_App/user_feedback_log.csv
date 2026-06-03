@@ -1,0 +1,2 @@
+FeedbackID,AppName,AppVersion,FeedbackDate,UserRole,PromptOrTask,WasUseful,AccuracyRating_1to5,ClarityRating_1to5,TrustRating_1to5,WhatWorked,WhatNeedsImprovement,ActionTaken
+FB001,Research CSV RAG App,v0.1,2026-06-03,Researcher,Grounded answer from CSV records,Partly useful,,,,Retrieved relevant evidence.,Needs more sources and stronger limitations.,Expand CSV literature database.
