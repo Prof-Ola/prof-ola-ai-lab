@@ -1,0 +1,33 @@
+# Lesson 13: Securing Generative AI Applications
+
+## Microsoft Course Concept
+
+This lesson introduces security risks and protections for generative AI applications. It covers threats such as data poisoning, prompt injection, supply chain vulnerabilities, overreliance, data leakage, and misuse.
+
+It also discusses security testing methods such as data sanitization, adversarial testing, model verification, output validation, and red teaming.
+
+## My Adaptation
+
+I adapted the lesson into an AI Security Risk Assessment Generator for my AI Lab applications.
+
+The tool helps assess risks in AI apps and recommend controls for data security, prompt injection, output reliability, supply chain risk, API key management, access control, and security testing.
+
+## Key Concepts Practised
+
+- AI security risk assessment
+- Data protection
+- Prompt injection awareness
+- Overreliance control
+- API key safety
+- Supply chain risk
+- Access control
+- AI red-team testing
+- Output validation
+
+## Build Completed
+
+AI Security Risk Assessment Generator.
+
+## Main Lesson
+
+Generative AI applications must be designed with security from the beginning. It is not enough for an app to work. It must protect data, resist misuse, validate outputs, manage secrets, and reduce the risk of harmful or misleading results.
