@@ -1,0 +1,161 @@
+{
+  "timestamp": "2026-06-03T21:51:03",
+  "pitch": "Target users are researchers, postgraduate students, and collaborators. The app is currently a local prototype using text notes, embeddings, vector search, Claude answer generation, and evaluation logging.",
+  "context": "Target users are researchers, postgraduate students, and collaborators.",
+  "agent_outputs": [
+    {
+      "agent": "Research Director",
+      "role_focus": "Strategic direction, academic positioning, originality, and publication potential.",
+      "key_questions": [
+        "What is the central research problem?",
+        "What is the unique contribution compared with existing literature?",
+        "Which journal, grant, or institutional priority does this align with?",
+        "What would make this work internationally relevant?"
+      ],
+      "concerns": [
+        "The idea may become too broad if the scope is not tightly defined.",
+        "The novelty must be clearly separated from general AI-in-agriculture discussions.",
+        "The expected academic output should be defined early."
+      ],
+      "recommendations": [
+        "Frame the idea around one strong research gap.",
+        "Define the target output, such as article, grant concept, prototype, or policy brief.",
+        "Connect the work to food security, postharvest loss reduction, climate resilience, or LMIC systems.",
+        "Develop a clear conceptual framework before expanding the evidence base."
+      ],
+      "next_actions": [
+        "Write a one-sentence problem statement.",
+        "Define the intended academic contribution.",
+        "Identify the top three target journals or funding calls."
+      ]
+    },
+    {
+      "agent": "Postharvest Scientist",
+      "role_focus": "Scientific validity, crop physiology, quality indicators, storage, and value-chain relevance.",
+      "key_questions": [
+        "Which crop or crop group is the priority?",
+        "Which maturity or quality indicators will be measured?",
+        "How does the idea reduce postharvest loss or improve shelf life?",
+        "What happens under warm-chain or resource-constrained conditions?"
+      ],
+      "concerns": [
+        "AI outputs may be weak if physiological maturity indicators are poorly defined.",
+        "External visual features alone may not represent internal fruit quality.",
+        "Smallholder contexts require practical, low-cost, and robust methods."
+      ],
+      "recommendations": [
+        "Link AI predictions to measurable postharvest quality indicators.",
+        "Include both external and internal maturity parameters where possible.",
+        "Consider warm-chain stress, cold storage limitations, and handling practices.",
+        "Prioritize crops with high postharvest loss and strong local relevance."
+      ],
+      "next_actions": [
+        "List the maturity indicators relevant to the selected crop.",
+        "Identify practical measurement methods for each indicator.",
+        "Map how harvest timing affects shelf life and market quality."
+      ]
+    },
+    {
+      "agent": "AI Engineer",
+      "role_focus": "Technical feasibility, data, model choice, RAG, function calling, agents, and deployment.",
+      "key_questions": [
+        "What data will the AI system use?",
+        "Is the task better solved by RAG, classification, computer vision, function calling, or an agent?",
+        "Will the system run locally, through an API, or as a hybrid stack?",
+        "How will outputs be evaluated?"
+      ],
+      "concerns": [
+        "The project may fail if data quality and data structure are weak.",
+        "A chatbot alone is not enough if the workflow needs retrieval, tools, or memory.",
+        "Uncontrolled agents can choose wrong tools or generate unsupported answers."
+      ],
+      "recommendations": [
+        "Start with a narrow prototype before adding agent complexity.",
+        "Use RAG where answers must be grounded in documents.",
+        "Use function calling where the system must choose tools or structured actions.",
+        "Use persistent state only after defining what should and should not be stored.",
+        "Add evaluation logs for quality, groundedness, safety, cost, and latency."
+      ],
+      "next_actions": [
+        "Define the minimum viable AI workflow.",
+        "Identify required tools and data sources.",
+        "Create test prompts and scoring criteria before expanding the app."
+      ]
+    },
+    {
+      "agent": "Grant Strategist",
+      "role_focus": "Funding alignment, impact story, stakeholders, scalability, and implementation pathway.",
+      "key_questions": [
+        "Who benefits directly from this project?",
+        "What funder priority does this address?",
+        "What is the measurable outcome?",
+        "How can the idea scale beyond one study or one app?"
+      ],
+      "concerns": [
+        "Funders may not support the idea if the impact pathway is vague.",
+        "Technical novelty alone is not enough without community, food security, or value-chain relevance.",
+        "The proposal needs measurable outputs, milestones, and beneficiaries."
+      ],
+      "recommendations": [
+        "Frame the project as a solution to postharvest loss, food security, and climate-resilient value chains.",
+        "Identify beneficiaries such as smallholder farmers, extension workers, students, researchers, and agribusinesses.",
+        "Include capacity building, knowledge transfer, and low-cost implementation.",
+        "Develop a phased plan from prototype to field validation."
+      ],
+      "next_actions": [
+        "Draft a short impact statement.",
+        "Identify potential funders or institutional partners.",
+        "Define outputs, outcomes, and indicators."
+      ]
+    },
+    {
+      "agent": "Ethics and Risk Reviewer",
+      "role_focus": "Responsible AI, bias, privacy, security, overreliance, and human review.",
+      "key_questions": [
+        "What data could be sensitive?",
+        "Could the system give misleading or overconfident recommendations?",
+        "Who is responsible if the AI advice causes poor decisions?",
+        "How will users know the AI output needs human review?"
+      ],
+      "concerns": [
+        "AI systems may overstate certainty when evidence is limited.",
+        "Smallholder users may overtrust AI recommendations if limitations are not clearly shown.",
+        "Private research notes, collaborator details, and unpublished data should not be exposed.",
+        "Agent memory may store sensitive information if not controlled."
+      ],
+      "recommendations": [
+        "Add human review warnings to all high-impact outputs.",
+        "Avoid storing sensitive information in persistent state unless necessary.",
+        "Add prompt injection tests before connecting tools to real data.",
+        "Use evidence limitation statements in research and RAG outputs.",
+        "Keep API keys and private files out of GitHub."
+      ],
+      "next_actions": [
+        "Classify data sensitivity before deployment.",
+        "Add AI-generated output notices.",
+        "Create a risk register and test unsafe prompts."
+      ]
+    }
+  ],
+  "integrated_recommendation": {
+    "meeting_summary": "The multi-agent panel agrees that the idea has strong potential if it is narrowed into a clear research problem, grounded in postharvest science, supported by a feasible AI workflow, aligned with funder priorities, and protected by responsible AI safeguards.",
+    "highest_priority_recommendations": [
+      "Clarify the exact research problem and intended output.",
+      "Define the crop, context, users, and measurable postharvest outcome.",
+      "Decide whether the technical approach needs RAG, function calling, agents, or computer vision.",
+      "Create evaluation metrics before expanding the prototype.",
+      "Add human review, privacy safeguards, and prompt injection testing."
+    ],
+    "suggested_next_actions": [
+      "Write a one-sentence problem statement.",
+      "Define the intended academic contribution.",
+      "Identify the top three target journals or funding calls.",
+      "List the maturity indicators relevant to the selected crop.",
+      "Identify practical measurement methods for each indicator.",
+      "Map how harvest timing affects shelf life and market quality.",
+      "Define the minimum viable AI workflow.",
+      "Identify required tools and data sources."
+    ],
+    "decision": "Proceed to concept refinement before full implementation. Do not scale until the problem statement, data sources, evaluation criteria, and risk controls are clear."
+  }
+}
