@@ -41,3 +41,11 @@ I built an LLMOps metrics tracker generator.
 The app creates CSV templates for evaluation test cases, runtime monitoring, user feedback, risk incidents, and version changes.
 
 This supports the Lesson 14 focus on managing generative AI applications across their lifecycle by tracking quality, groundedness, safety, cost, latency, feedback, monitoring, and iteration.
+
+## Build 3: AI App Version Release Planner
+
+I built an AI app version release planner.
+
+The app generates release plans that document current version, next version, release goal, features added, bugs fixed, metrics improved, risks reduced, known limitations, testing completed, deployment target, rollback plan, and release ownership.
+
+This supports the Lesson 14 lifecycle by helping move AI applications from prototype to improved versions through controlled release planning, testing, monitoring, and iteration.
