@@ -38,3 +38,13 @@ I built a fine-tuning dataset readiness checker.
 The app evaluates whether a dataset is ready for fine-tuning based on example quantity, input-output quality, format consistency, domain relevance, duplicate checking, bias checking, sensitive data review, human review, validation data, evaluation data, baseline availability, expected behavior, deployment purpose, and cost estimation.
 
 This supports Lesson 18 by emphasizing that fine-tuning requires curated, high-quality, reviewed data rather than random examples.
+
+## Build 3: Fine-Tuning Example Formatter
+
+I built a fine-tuning example formatter.
+
+The app creates chat-style JSONL examples with system, user, and assistant messages. It can generate sample ResearchLab examples or allow one custom example to be created manually.
+
+The app also validates the example structure before saving the output as JSONL and readable JSON.
+
+This supports Lesson 18 by showing that fine-tuning requires structured, curated, reviewed examples rather than raw notes or unformatted text.
