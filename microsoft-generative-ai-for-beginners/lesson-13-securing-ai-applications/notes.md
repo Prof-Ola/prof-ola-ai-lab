@@ -14,15 +14,15 @@ The tool helps assess risks in AI apps and recommend controls for data security,
 
 ## Key Concepts Practised
 
-- AI security risk assessment
-- Data protection
-- Prompt injection awareness
-- Overreliance control
-- API key safety
-- Supply chain risk
-- Access control
-- AI red-team testing
-- Output validation
+* AI security risk assessment
+* Data protection
+* Prompt injection awareness
+* Overreliance control
+* API key safety
+* Supply chain risk
+* Access control
+* AI red-team testing
+* Output validation
 
 ## Build Completed
 
@@ -31,3 +31,20 @@ AI Security Risk Assessment Generator.
 ## Main Lesson
 
 Generative AI applications must be designed with security from the beginning. It is not enough for an app to work. It must protect data, resist misuse, validate outputs, manage secrets, and reduce the risk of harmful or misleading results.
+
+
+
+\## Build 2: Prompt Injection Test Harness
+
+
+
+I built a prompt injection test harness for AI applications.
+
+
+
+The app generates security test cases for instruction override, system prompt extraction, fake citation requests, RAG poisoning, API key extraction, unauthorized function calls, overconfidence, sensitive data exposure, role confusion, and malformed input.
+
+
+
+This supports Lesson 13 by applying adversarial testing and output validation to AI applications before deployment.
+
