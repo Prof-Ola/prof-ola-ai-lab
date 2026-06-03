@@ -48,3 +48,12 @@ This completes the core RAG pipeline:
 
 Documents → chunks → embeddings → vector index → retrieval → context → grounded LLM answer.
 
+
+## Build 4: RAG Evaluation Logger
+
+I built a RAG evaluation logger.
+
+The app retrieves relevant knowledge-base chunks, generates a grounded Claude answer, asks the user to score groundedness, relevance, and limitation quality, then logs the interaction into a CSV file.
+
+This supports RAG evaluation by tracking questions, retrieved chunks, similarity scores, generated answers, evaluation scores, and user notes.
+

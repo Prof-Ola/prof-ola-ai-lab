@@ -1,0 +1,40 @@
+Timestamp,Question,RetrievedChunkIDs,SourceFiles,SimilarityScores,GeneratedAnswer,GroundednessScore_1to5,RelevanceScore_1to5,LimitationQualityScore_1to5,UserNotes
+2026-06-03T17:16:15,How can AI help determine harvest maturity?,harvest_maturity_notes_chunk_1 | harvest_maturity_notes_chunk_2,harvest_maturity_notes.txt | harvest_maturity_notes.txt,0.815 | 0.61,"# Answer: How can AI help determine harvest maturity?
+
+## 1. Direct Answer
+AI can help determine harvest maturity through two primary approaches: **computer vision** for external assessment and **near-infrared spectroscopy** for internal quality evaluation. These technologies enable non-destructive, data-driven maturity classification that can improve postharvest decision-making.
+
+## 2. Supporting Evidence from Retrieved Context
+According to the retrieved context:
+
+- **Computer vision** can classify maturity stages (e.g., in tomatoes) using external features including ""colour, size, texture, and surface appearance""
+
+- **Near-infrared spectroscopy** can estimate internal fruit quality attributes such as ""dry matter, soluble solids content, firmness, acidity, and moisture content without destroying the fruit""
+
+- AI-enabled systems can integrate multiple data types: ""visual, spectral, environmental, and physiological indicators"" to support better postharvest decision-making
+
+## 3. Practical Implication
+The context specifically notes that computer vision approaches ""can support low-cost decision-making in warm-chain horticultural systems,"" which is particularly relevant for smallholder farmers in low- and middle-income countries (LMICs) who may lack access to cold storage infrastructure. Non-destructive assessment methods allow farmers to make harvest timing decisions without product loss.
+
+## 4. Limitation of Available Evidence
+The retrieved context mentions significant implementation barriers for LMICs including ""limited cold storage, weak internet connectivity, high technology costs, low technical capacity, and weak extension support,"" but does not provide specific examples, validation studies, accuracy metrics, or detailed implementation protocols for these AI-based maturity assessment methods.",4,4,4,"Good answer, but knowledge base is still small."
+2026-06-03T17:16:48,"Good answer, but knowledge base is still small.",harvest_maturity_notes_chunk_2 | harvest_maturity_notes_chunk_1,harvest_maturity_notes.txt | harvest_maturity_notes.txt,0.599 | 0.592,"## 1. Direct Answer
+
+Your observation is correct. The retrieved context explicitly acknowledges that knowledge base limitations are a known challenge in RAG (Retrieval-Augmented Generation) systems, particularly for agricultural applications in low- and middle-income countries.
+
+## 2. Supporting Evidence from Retrieved Context
+
+The retrieved text states that ""A good RAG system should track relevance, groundedness, quality, fluency, latency, cost, **and evidence limitations**"" (Source 1). This indicates that knowledge base size and coverage are recognized quality metrics for RAG systems.
+
+Additionally, the context describes multiple barriers facing smallholder farmers in LMICs, including ""limited cold storage, weak internet connectivity, high technology costs, low technical capacity, and weak extension support"" (Source 1), which may contribute to limited documentation and knowledge base development in these contexts.
+
+## 3. Practical Implication
+
+For postharvest research in LMIC horticultural systems, this suggests a need to:
+- Systematically expand knowledge bases with locally relevant, validated information on harvest maturity assessment
+- Prioritize documentation of low-cost technologies (e.g., computer vision for tomato maturity classification) that address the specific barriers smallholder farmers face
+- Develop knowledge bases that work within infrastructure constraints (limited connectivity, low technical capacity)
+
+## 4. Limitation of Available Evidence
+
+The retrieved context does not provide specific guidance on how to expand knowledge bases, what minimum size is needed for effectiveness, or concrete examples of successful knowledge base development for agricultural RAG systems in LMICs.",,,,
