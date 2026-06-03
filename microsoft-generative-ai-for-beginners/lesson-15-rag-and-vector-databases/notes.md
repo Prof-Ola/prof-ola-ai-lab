@@ -30,3 +30,11 @@ Local RAG Knowledge Base Index Builder.
 ## Main Lesson
 
 A RAG application is not just a chatbot. It requires a knowledge base, chunking strategy, embedding model, vector index, retrieval method, and evaluation process before the LLM generates grounded answers.
+
+## Build 2: Local RAG Retriever
+
+I built a local RAG retriever that loads the saved vector index, embeds a user query, searches the nearest document chunks, and returns the most relevant chunks with similarity scores.
+
+This implements the retrieval stage of the RAG pipeline:
+
+User query → query embedding → vector index search → retrieved context.
