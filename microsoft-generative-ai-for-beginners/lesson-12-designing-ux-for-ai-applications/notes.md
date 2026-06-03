@@ -32,3 +32,19 @@ AI UX Message Framework Generator.
 ## Main Lesson
 
 AI applications should not only produce outputs. They should clearly explain what they can do, what they cannot do, how users remain in control, when human review is needed, and how users can give feedback.
+
+## Build 2: AI Error and Feedback Handler
+
+I built an error and feedback handler for AI applications.
+
+The app generates user-friendly messages for unclear input, missing data, low-confidence output, out-of-scope requests, evidence limitations, human review requirements, system errors, and feedback capture.
+
+This supports the Lesson 12 focus on reliability, trust, transparency, collaboration, and user feedback.
+
+## Build 3: AI UX Audit Checklist Generator
+
+I built an AI UX audit checklist generator for reviewing AI applications before deployment.
+
+The app evaluates usefulness, reliability, accessibility, pleasantness, trust and transparency, user control, human review, feedback, and data privacy.
+
+This supports the Lesson 12 assignment by applying UX principles to AI apps already built in the AI Lab.
