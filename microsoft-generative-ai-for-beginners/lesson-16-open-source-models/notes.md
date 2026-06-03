@@ -47,3 +47,13 @@ The app generates CSV files for testing open and proprietary models using the sa
 It also creates a scoring guide and model experiment summary to support fair comparison across quality, groundedness, format following, safety, speed, cost, privacy, and overall fit.
 
 This supports Lesson 16 by turning open model exploration into a structured evaluation process.
+
+## Build 4: Open Model Deployment Strategy Planner
+
+I built an open model deployment strategy planner.
+
+The app recommends whether a model should be deployed locally, through a hosted open model API, through cloud deployment, as part of a hybrid model stack, or with a proprietary API fallback.
+
+The recommendation is based on privacy, budget, hardware, expected users, latency, maintenance capacity, risk level, and deployment preference.
+
+This supports Lesson 16 by connecting open model selection to practical deployment planning.
