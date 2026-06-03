@@ -29,3 +29,11 @@ Open Model Selection Advisor.
 ## Main Lesson
 
 The best model is not always the biggest, newest, or most expensive model. The right model depends on the task, privacy requirements, quality needs, cost constraints, latency, hardware, and deployment strategy.
+
+## Build 2: Open Model Evaluation Matrix Generator
+
+I built an open model evaluation matrix generator.
+
+The app creates a CSV template for comparing proprietary and open models across cost, quality, privacy, latency, local deployability, fine-tuning potential, licensing, and fit for ResearchLab, Business Ops, and Trading Lab.
+
+This supports Lesson 16 by turning model selection into a structured evaluation process rather than choosing models based on hype or popularity.
