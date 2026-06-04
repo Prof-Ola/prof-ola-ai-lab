@@ -32,3 +32,13 @@ Meta Llama Model Selection Advisor.
 ## Main Lesson
 
 Llama 3.1 is useful for advanced text workflows such as RAG, function calling, multilingual tasks, and synthetic data generation. Llama 3.2 is useful when vision or multimodal understanding is required. Smaller Llama variants are better for lightweight local or edge tasks.
+
+## Build 2: Llama Function Calling Planner
+
+I built a Llama function calling planner.
+
+The app recommends whether to use Llama 3.1 70B function calling, Llama 3.1 405B function calling, a hybrid Llama function-calling workflow, or Claude/GPT fallback.
+
+It generates a function-calling architecture including tool schemas, call pattern, safety rules, and implementation steps.
+
+This supports Lesson 21 by adapting Llama 3.1 native function calling into ResearchLab, Business Ops, and Trading Lab workflows.

@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-06-04T10:38:35",
+  "project_name": "ResearchLab Llama Function Calling Pilot",
+  "lab_context": "ResearchLab",
+  "use_case": "Route research requests to tools for literature search, RAG retrieval, synthetic evaluation question generation, evaluation logging, and next-action planning",
+  "task_type": "RAG, research planning, synthetic data",
+  "recommended_model": "Llama 3.1 405B function calling",
+  "model_scores": {
+    "Llama 3.1 70B function calling": 12,
+    "Llama 3.1 405B function calling": 21,
+    "Hybrid Llama function calling": 11,
+    "Claude/GPT fallback for tool reasoning": 2
+  },
+  "call_pattern": {
+    "pattern": "Sequential calls",
+    "reason": "Research workflows usually need retrieval before generation and evaluation after generation."
+  },
+  "tool_schemas": [
+    {
+      "name": "search_research_records",
+      "description": "Search structured research records by topic, crop, method, and context.",
+      "parameters": {
+        "topic": "string",
+        "crop": "string",
+        "method": "string",
+        "context": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes before citing or using in manuscripts."
+    },
+    {
+      "name": "generate_research_question",
+      "description": "Generate focused research questions and working titles.",
+      "parameters": {
+        "topic": "string",
+        "crop": "string",
+        "context": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes before academic use."
+    },
+    {
+      "name": "retrieve_rag_context",
+      "description": "Retrieve relevant chunks from the ResearchLab knowledge base.",
+      "parameters": {
+        "query": "string",
+        "top_k": "integer",
+        "metadata_filter": "object"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes for publication-level outputs."
+    },
+    {
+      "name": "log_rag_evaluation",
+      "description": "Log query, retrieved chunks, model answer, and evaluation scores.",
+      "parameters": {
+        "question": "string",
+        "retrieved_chunks": "array",
+        "answer": "string",
+        "scores": "object",
+        "notes": "string"
+      },
+      "risk_level": "low",
+      "human_review_required": "No."
+    },
+    {
+      "name": "generate_synthetic_eval_questions",
+      "description": "Generate synthetic evaluation questions for testing RAG, function calling, or model behavior.",
+      "parameters": {
+        "topic": "string",
+        "number_of_questions": "integer",
+        "difficulty_level": "string",
+        "target_task": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes before using in formal evaluation."
+    },
+    {
+      "name": "create_next_action_plan",
+      "description": "Create a structured next-action plan for a user goal.",
+      "parameters": {
+        "goal": "string"
+      },
+      "risk_level": "low",
+      "human_review_required": "No, unless used for high-impact decisions."
+    },
+    {
+      "name": "draft_deadline_reminder",
+      "description": "Draft a professional reminder for upcoming deadlines.",
+      "parameters": {
+        "project": "string",
+        "deadline": "string",
+        "next_action": "string"
+      },
+      "risk_level": "low",
+      "human_review_required": "Yes before sending externally."
+    },
+    {
+      "name": "brave_search",
+      "description": "Search the web for current information when up-to-date data is required.",
+      "parameters": {
+        "query": "string",
+        "recency": "string",
+        "source_preference": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes before citing or using externally."
+    },
+    {
+      "name": "wolfram_alpha",
+      "description": "Run structured mathematical or computational queries.",
+      "parameters": {
+        "query": "string",
+        "calculation_type": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes for high-impact calculations."
+    },
+    {
+      "name": "generate_source_attribution",
+      "description": "User-defined tool. Add purpose and schema before implementation.",
+      "parameters": {
+        "input": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes until validated."
+    },
+    {
+      "name": "benchmark_llama_outputs",
+      "description": "User-defined tool. Add purpose and schema before implementation.",
+      "parameters": {
+        "input": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes until validated."
+    }
+  ],
+  "safety_rules": [
+    "Use allowlisted tools only.",
+    "Reject unknown or malformed tool calls.",
+    "Validate all arguments before execution.",
+    "Do not allow the model to execute shell commands directly.",
+    "Separate tool selection, execution, and final response generation.",
+    "Log every tool call, arguments, result, timestamp, and user goal.",
+    "Require human review for manuscript, grant, farmer-facing, legal, financial, or live-trading outputs.",
+    "For web search, cite sources and check recency.",
+    "For mathematical outputs, verify calculations.",
+    "For synthetic data, label it clearly as synthetic and review before training or evaluation use.",
+    "Do not expose API keys, credentials, private files, student data, or unpublished research notes.",
+    "Add prompt injection tests before connecting real tools."
+  ],
+  "implementation_steps": [
+    "Define the allowed tool list.",
+    "Write JSON schemas for each tool.",
+    "Create a prompt that asks Llama to choose exactly one valid tool or no tool.",
+    "Parse the model output safely.",
+    "Validate arguments against the expected schema.",
+    "Execute only approved tools.",
+    "Store tool result in state.",
+    "Generate a final response based only on tool result and allowed context.",
+    "Log the full interaction for evaluation.",
+    "Add human approval gates for high-risk outputs.",
+    "Test malformed tool calls and prompt injection attempts.",
+    "Compare Llama 3.1 70B and 405B on the same function-calling test set."
+  ]
+}
