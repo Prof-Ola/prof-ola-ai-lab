@@ -41,3 +41,32 @@ The app recommends a Phi-3 or Phi-3.5 model option and deployment route based on
 It supports options such as Phi-3 mini, Phi-3.5 mini, Phi Vision, Phi MoE, Ollama, ONNX Runtime, Hugging Face, GitHub Models, Azure AI Studio, and NVIDIA NIM.
 
 This supports Lesson 19 by helping decide how small language models can be deployed practically for ResearchLab, Business Ops, and local AI workflows.
+
+## Build 3: Local SLM Task Router
+
+I built a local SLM task router.
+
+The app classifies user requests and routes them to one of four pathways:
+- SLM
+- RAG + SLM
+- LLM fallback
+- Human review
+
+The routing decision is based on task type, complexity, grounding need, risk level, privacy sensitivity, and whether the request requires deeper reasoning.
+
+This supports Lesson 19 by showing how small language models can be used as efficient local task handlers while stronger models and human review remain available for complex or high-risk tasks.
+
+## Build 4: SLM Evaluation Matrix Generator
+
+I built an SLM evaluation matrix generator.
+
+The app creates CSV templates for comparing small language models such as Phi-3 mini, Phi-3.5 mini, Mistral, Qwen, Gemma, and Llama-style models across ResearchLab, Business Ops, and Trading Lab tasks.
+
+It generates:
+- SLM evaluation matrix
+- SLM evaluation scorecard
+- SLM model comparison summary
+- SLM deployment decision matrix
+- SLM evaluation summary
+
+This supports Lesson 19 by ensuring that small language models are evaluated against real workflow tasks before being trusted or deployed.
