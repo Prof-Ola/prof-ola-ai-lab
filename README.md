@@ -1,276 +1,102 @@
-\# Prof Ola AI Lab
+# Prof Ola AI Lab
 
+A practical AI learning and application portfolio built while working through the Microsoft Generative AI for Beginners course.
 
+This repository adapts the course into real tools for three operating labs:
 
-This repository documents my AI certification and applied generative AI building journey.
+1. ResearchLab
+2. Business Ops
+3. Trading Lab
 
+The goal is not just to complete lessons, but to build a reusable AI operating system for research, academic productivity, business workflows, and safe paper-trading experimentation.
 
+## Core Philosophy
 
-The work began with the Microsoft Generative AI for Beginners curriculum and has been adapted into practical tools for research, academic writing, literature review development, visual communication, and AI-assisted knowledge workflows.
+- Learn the concept.
+- Build a local tool.
+- Test it.
+- Improve it.
+- Commit it.
+- Push it.
+- Document the lesson.
 
+## Completed Lessons and Builds
 
+| Lesson | Theme | Status |
+|---|---|---|
+| 06 | Text generation | Complete |
+| 07 | Chat applications | Complete |
+| 08 | Search applications and semantic search | Complete |
+| 09 | Image generation applications | Complete |
+| 10 | Low-code AI applications | Complete |
+| 11 | Function calling | Complete |
+| 12 | AI UX design | Complete |
+| 13 | Securing AI applications | Complete |
+| 14 | Generative AI application lifecycle | Complete |
+| 15 | RAG and vector databases | Complete |
+| 16 | Open models | Complete |
+| 17 | AI agents | Complete |
+| 18 | Fine-tuning models | Complete |
 
-\## Main Learning Track
+## ResearchLab
 
+ResearchLab focuses on academic and scientific workflows, especially postharvest technology, food security, horticultural crops, AI-enabled harvest maturity assessment, literature review support, RAG-based research assistance, grant development, manuscript development, and multi-agent research review.
 
+## Business Ops
 
-Microsoft Generative AI for Beginners
+Business Ops focuses on low-code planning, workflow automation, communication drafts, tracker generation, dashboard-ready outputs, and business process support.
 
+## Trading Lab
 
+Trading Lab focuses on safe, paper-trading-first AI concepts, risk-control thinking, monitoring concepts, and audit logging. It does not provide financial advice.
 
-\## Current Focus Areas
+## Current AI Lab Architecture
 
+Prompt engineering -> Chat applications -> Semantic search -> RAG -> Function calling -> Agents -> Security -> Lifecycle management -> Open model strategy -> Fine-tuning readiness
 
+## Important Safety Notes
 
-\- Research Lab
+This repository may generate local logs, agent memory, RAG evaluation records, and multi-agent meeting records.
 
-\- Business Ops
+These generated records may contain sensitive research ideas, unpublished manuscript concepts, collaborator details, grant strategy, or private notes.
 
-\- Trading Lab
+Runtime records should not be committed to GitHub.
 
-\- Academic writing and manuscript development
+Recommended private folders include:
 
-\- Postharvest technology and food security
+- agent_state/
+- multi_agent_meeting_records/
+- claude_multi_agent_meeting_records/
+- rag_evaluation_logs/
 
-\- AI-assisted research communication
+## Future Development Priorities
 
+### ResearchLab
 
+- Expand the RAG knowledge base.
+- Add metadata-rich retrieval.
+- Add source attribution.
+- Benchmark embedding models.
+- Improve evaluation logs.
+- Build a Streamlit interface.
+- Add safe persistent memory controls.
 
-\---
+### Business Ops
 
+- Convert trackers into Google Sheets or AppSheet workflows.
+- Build reusable templates for project management.
+- Add email and document drafting workflows.
 
+### Trading Lab
 
-\## Completed Lessons and Builds
+- Keep everything paper-trading-first.
+- Add audit logs.
+- Add risk limits.
+- Add no-financial-advice safeguards.
+- Avoid live execution until governance, testing, and risk controls are mature.
 
+## Final Reflection
 
+This repository documents a practical journey from basic text generation to a structured AI application portfolio.
 
-\### Lesson 06: Building Text Generation Applications
-
-
-
-Core concept:
-
-Text generation apps use prompts, AI models, tokens, and temperature settings to produce structured text outputs.
-
-
-
-Builds completed:
-
-\- Research Idea Generator
-
-\- Research Gap App
-
-
-
-Skills practised:
-
-\- Python basics
-
-\- API key handling
-
-\- Prompt design
-
-\- Claude API usage
-
-\- Text generation workflows
-
-\- Temperature and max token configuration
-
-
-
-\---
-
-
-
-\### Lesson 07: Building Chat Applications
-
-
-
-Core concept:
-
-Chat applications retain conversation context and use previous turns to generate more relevant responses.
-
-
-
-Builds completed:
-
-\- ResearchLab AI Chat Assistant
-
-\- Menu-Based Research Workflow Assistant
-
-
-
-Modes included:
-
-\- Research Question Refinement
-
-\- Literature Review Outline
-
-\- Manuscript Concept Builder
-
-\- Grant Concept Builder
-
-\- Reviewer Response Assistant
-
-\- General Research Chat
-
-
-
-Skills practised:
-
-\- Chat loops
-
-\- Conversation memory
-
-\- System prompts
-
-\- Domain-specific customization
-
-\- Responsible AI guardrails
-
-\- Research workflow design
-
-
-
-\---
-
-
-
-\### Lesson 08: Building Search Applications
-
-
-
-Core concept:
-
-Search applications use embeddings to convert text into vectors and retrieve relevant information based on semantic similarity.
-
-
-
-Builds completed:
-
-\- Hardcoded Research Semantic Search App
-
-\- File-Based Semantic Search App
-
-\- Embedding Model Comparison Script
-
-\- CSV-Based Literature Search App
-
-\- CSV RAG Answer Generator
-
-
-
-Embedding models tested:
-
-\- sentence-transformers/all-MiniLM-L6-v2
-
-\- BAAI/bge-small-en-v1.5
-
-\- BAAI/bge-base-en-v1.5
-
-
-
-Selected model:
-
-\- BAAI/bge-small-en-v1.5
-
-
-
-Skills practised:
-
-\- Semantic search
-
-\- Text embeddings
-
-\- Cosine similarity
-
-\- Local embedding models
-
-\- CSV search
-
-\- Retrieval-augmented generation
-
-\- Grounded AI answers
-
-
-
-\---
-
-
-
-\### Lesson 09: Building Image Generation Applications
-
-
-
-Core concept:
-
-Image generation applications use text prompts and meta prompts to create controlled visual outputs.
-
-
-
-Builds completed:
-
-\- Research Image Prompt Builder
-
-\- Prompt Builder + Save Prompt to File
-
-\- Scientific Figure Prompt Generator
-
-\- Thumbnail Prompt Specialist
-
-
-
-Skills practised:
-
-\- Image generation prompt design
-
-\- Meta prompts
-
-\- Safety boundaries
-
-\- Scientific figure prompting
-
-\- Thumbnail prompt engineering
-
-\- Prompt archiving
-
-\- Research communication design
-
-
-
-\---
-
-
-
-\## Portfolio Direction
-
-
-
-This repository is evolving into a practical AI operating system for:
-
-
-
-\- Research ideation
-
-\- Literature review support
-
-\- Manuscript concept development
-
-\- Grant concept development
-
-\- Semantic search over research notes
-
-\- Grounded AI answering from structured research records
-
-\- Scientific figure prompt generation
-
-\- LinkedIn and FRIN visual prompt generation
-
-
-
-\## Guiding Principle
-
-
-
-The goal is not only to complete AI lessons, but to convert each lesson into a working tool that supports real research, business, and communication workflows.
-
+It is not just a course folder. It is the foundation of a working AI Lab.

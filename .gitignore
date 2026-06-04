@@ -4,3 +4,24 @@ __pycache__/
 *.pycmicrosoft-generative-ai-for-beginners/lesson-17-ai-agents/claude_multi_agent_meeting_records/ 
 microsoft-generative-ai-for-beginners/lesson-17-ai-agents/multi_agent_meeting_records/ 
 microsoft-generative-ai-for-beginners/lesson-17-ai-agents/agent_state/ 
+
+# Environment and secrets
+.env.*
+!.env.example
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+
+# Private AI Lab runtime records
+microsoft-generative-ai-for-beginners/lesson-17-ai-agents/agent_state/
+microsoft-generative-ai-for-beginners/lesson-17-ai-agents/multi_agent_meeting_records/
+microsoft-generative-ai-for-beginners/lesson-17-ai-agents/claude_multi_agent_meeting_records/
+microsoft-generative-ai-for-beginners/lesson-15-rag-and-vector-databases/rag_evaluation_logs/
+
+# Local generated logs
+*.log

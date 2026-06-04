@@ -1,0 +1,9 @@
+{
+  "timestamp": "YYYY-MM-DDTHH:MM:SS",
+  "pitch": "Example AI app pitch",
+  "context": "Example non-sensitive context",
+  "agent_outputs": [],
+  "integrated_recommendation": {
+    "meeting_summary": "Example summary only."
+  }
+}
