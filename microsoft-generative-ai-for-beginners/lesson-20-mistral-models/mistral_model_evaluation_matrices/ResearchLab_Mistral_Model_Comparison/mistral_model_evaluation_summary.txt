@@ -1,0 +1,29 @@
+Mistral Model Evaluation Matrix
+
+Project:
+ResearchLab Mistral Model Comparison
+
+Models compared:
+- Mistral Large
+- Mistral Small
+- Mistral NeMo
+
+Generated files:
+1. mistral_model_evaluation_matrix.csv
+2. mistral_model_scorecard.csv
+3. mistral_model_comparison_summary.csv
+4. mistral_deployment_decision_matrix.csv
+
+Recommended workflow:
+1. Run the same prompts across Mistral Large, Small, and NeMo.
+2. Record actual outputs.
+3. Score outputs using the scorecard.
+4. Compare results across ResearchLab, Business Ops, and Trading Lab tasks.
+5. Decide which model belongs in which workflow.
+6. Keep human review for high-impact outputs.
+
+Operating rule:
+Mistral Small for frequent lightweight tasks.
+Mistral Large for advanced RAG, coding, and multilingual synthesis.
+Mistral NeMo for open function calling, fine-tuning experiments, and flexible deployment.
+Claude/GPT fallback for high-stakes final review.

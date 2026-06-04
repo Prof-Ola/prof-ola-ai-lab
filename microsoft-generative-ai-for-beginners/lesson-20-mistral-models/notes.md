@@ -54,3 +54,18 @@ The app recommends whether to use Mistral Large function calling, Mistral NeMo f
 It generates a function-calling architecture including tool schemas, call pattern, safety rules, and implementation steps.
 
 This supports Lesson 20 by adapting Mistral's function-calling capability into ResearchLab, Business Ops, and Trading Lab workflows.
+
+## Build 4: Mistral Model Evaluation Matrix Generator
+
+I built a Mistral model evaluation matrix generator.
+
+The app creates CSV templates for comparing Mistral Large, Mistral Small, and Mistral NeMo across RAG, function calling, coding, multilingual tasks, summarization, safety, latency, cost, license flexibility, and AI Lab fit.
+
+It generates:
+- Mistral model evaluation matrix
+- Mistral model scorecard
+- Mistral model comparison summary
+- Mistral deployment decision matrix
+- Mistral model evaluation summary
+
+This supports Lesson 20 by ensuring that Mistral models are evaluated against real ResearchLab, Business Ops, and Trading Lab tasks before adoption.

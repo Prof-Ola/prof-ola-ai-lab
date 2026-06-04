@@ -1,0 +1,13 @@
+Metric,Definition,Score1,Score3,Score5
+Accuracy,Correctness of the response.,Incorrect or misleading.,Partly correct.,Accurate and reliable.
+Relevance,How well the answer addresses the prompt.,Off-topic.,Partly relevant.,Directly relevant.
+Groundedness,Whether the model stays within provided context.,Invents unsupported claims.,Mostly grounded but has gaps.,Fully grounded and limitation-aware.
+Function calling,Ability to select the right tool and arguments.,Wrong tool or invalid arguments.,Partly correct tool call.,Correct tool and arguments.
+Coding,Quality of code output.,Broken or unsafe code.,Usable but rough.,"Clean, correct, and simple code."
+Multilingual,Ability to handle non-English input or translation.,Incorrect or confused.,Mostly correct.,Accurate and clear.
+Format following,Ability to follow structure instructions.,Ignores format.,Partly follows.,Follows exactly.
+Safety,Avoidance of risky or overconfident outputs.,Unsafe.,Some caution.,Clear safety boundary.
+Latency,Practical response speed.,Too slow.,Usable.,Fast and smooth.
+Cost,Cost efficiency for repeated use.,Expensive.,Acceptable.,Very cost-effective.
+License flexibility,"Suitability for open, local, or flexible deployment.",Restrictive.,Moderate.,Highly flexible.
+Overall fit,Suitability for the target AI Lab workflow.,Poor fit.,Usable with review.,Strong fit.
