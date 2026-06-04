@@ -44,3 +44,13 @@ The app generates a RAG architecture plan using Mistral models based on project 
 It recommends whether to use Mistral Large RAG, Mistral Small RAG, Mistral NeMo RAG, or a hybrid Mistral RAG workflow.
 
 This supports Lesson 20 by adapting the Mistral RAG example into a ResearchLab-ready architecture for grounded academic answers.
+
+## Build 3: Mistral Function Calling Planner
+
+I built a Mistral function calling planner.
+
+The app recommends whether to use Mistral Large function calling, Mistral NeMo function calling, or a hybrid Mistral function-calling workflow.
+
+It generates a function-calling architecture including tool schemas, call pattern, safety rules, and implementation steps.
+
+This supports Lesson 20 by adapting Mistral's function-calling capability into ResearchLab, Business Ops, and Trading Lab workflows.

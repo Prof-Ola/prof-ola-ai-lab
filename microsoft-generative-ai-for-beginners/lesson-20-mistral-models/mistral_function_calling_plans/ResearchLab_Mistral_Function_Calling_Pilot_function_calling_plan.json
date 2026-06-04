@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-06-04T09:59:06",
+  "project_name": "ResearchLab Mistral Function Calling Pilot",
+  "lab_context": "ResearchLab",
+  "use_case": "Route research requests to tools for literature search, research question generation, RAG retrieval, evaluation logging, and next-action planning",
+  "task_type": "RAG and research planning",
+  "recommended_model": "Mistral NeMo function calling",
+  "model_scores": {
+    "Mistral Large function calling": 3,
+    "Mistral NeMo function calling": 16,
+    "Hybrid Mistral function calling": 10
+  },
+  "call_pattern": {
+    "pattern": "Sequential calls",
+    "reason": "Research workflows usually require retrieval before generation, then evaluation after generation."
+  },
+  "tool_schemas": [
+    {
+      "name": "search_research_records",
+      "description": "Search structured research records by topic, crop, method, and context.",
+      "parameters": {
+        "topic": "string",
+        "crop": "string",
+        "method": "string",
+        "context": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes before citing or using in manuscripts."
+    },
+    {
+      "name": "generate_research_question",
+      "description": "Generate focused research questions and working titles.",
+      "parameters": {
+        "topic": "string",
+        "crop": "string",
+        "context": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes before academic use."
+    },
+    {
+      "name": "retrieve_rag_context",
+      "description": "Retrieve relevant chunks from the ResearchLab knowledge base.",
+      "parameters": {
+        "query": "string",
+        "top_k": "integer",
+        "metadata_filter": "object"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes for publication-level outputs."
+    },
+    {
+      "name": "log_rag_evaluation",
+      "description": "Log query, retrieved chunks, model answer, and evaluation scores.",
+      "parameters": {
+        "question": "string",
+        "retrieved_chunks": "array",
+        "answer": "string",
+        "scores": "object",
+        "notes": "string"
+      },
+      "risk_level": "low",
+      "human_review_required": "No."
+    },
+    {
+      "name": "create_next_action_plan",
+      "description": "Create a structured next-action plan for a user goal.",
+      "parameters": {
+        "goal": "string"
+      },
+      "risk_level": "low",
+      "human_review_required": "No, unless used for high-impact decisions."
+    },
+    {
+      "name": "draft_deadline_reminder",
+      "description": "Draft a professional reminder for upcoming deadlines.",
+      "parameters": {
+        "project": "string",
+        "deadline": "string",
+        "next_action": "string"
+      },
+      "risk_level": "low",
+      "human_review_required": "Yes before sending externally."
+    },
+    {
+      "name": "benchmark_embedding_models",
+      "description": "User-defined tool. Add purpose and schema before implementation.",
+      "parameters": {
+        "input": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes until validated."
+    },
+    {
+      "name": "generate_source_attribution",
+      "description": "User-defined tool. Add purpose and schema before implementation.",
+      "parameters": {
+        "input": "string"
+      },
+      "risk_level": "medium",
+      "human_review_required": "Yes until validated."
+    }
+  ],
+  "safety_rules": [
+    "Validate all function arguments before execution.",
+    "Reject unknown tools.",
+    "Do not allow the model to execute shell commands directly.",
+    "Log every selected tool, arguments, result, and timestamp.",
+    "Use human approval for high-risk or external-facing actions.",
+    "Never expose API keys, private files, unpublished data, or credentials.",
+    "Use allowlisted tools only.",
+    "Add fallback responses when the selected tool fails.",
+    "Separate retrieval, reasoning, and action steps.",
+    "Require source attribution for research outputs."
+  ],
+  "implementation_steps": [
+    "Define the allowed tool list.",
+    "Create JSON schemas for each tool.",
+    "Build a router that asks Mistral to select a tool and arguments.",
+    "Parse and validate the tool call.",
+    "Execute only approved tools.",
+    "Store tool results in state.",
+    "Generate a final response using tool results.",
+    "Log all tool calls for evaluation.",
+    "Add human review gates for high-risk outputs.",
+    "Test prompt injection attempts before deployment."
+  ]
+}
