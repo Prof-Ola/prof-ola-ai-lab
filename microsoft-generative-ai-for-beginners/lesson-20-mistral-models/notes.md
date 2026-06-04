@@ -34,3 +34,13 @@ Mistral Model Selection Advisor.
 ## Main Lesson
 
 Mistral models should be selected based on the actual task. Mistral Small is useful for frequent lightweight tasks, Mistral Large is better for complex RAG, coding, and multilingual reasoning, while Mistral NeMo is useful for open-model flexibility, function calling, and future fine-tuning experiments.
+
+## Build 2: Mistral RAG Pattern Planner
+
+I built a Mistral RAG pattern planner.
+
+The app generates a RAG architecture plan using Mistral models based on project name, use case, document type, knowledge domain, expected questions, context window needs, multilingual needs, function calling needs, cost, latency, privacy, vector store preference, deployment preference, and evaluation readiness.
+
+It recommends whether to use Mistral Large RAG, Mistral Small RAG, Mistral NeMo RAG, or a hybrid Mistral RAG workflow.
+
+This supports Lesson 20 by adapting the Mistral RAG example into a ResearchLab-ready architecture for grounded academic answers.
