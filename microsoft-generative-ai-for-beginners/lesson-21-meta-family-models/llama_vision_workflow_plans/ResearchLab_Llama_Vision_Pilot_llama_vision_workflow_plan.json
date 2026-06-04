@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-06-04T10:59:32",
+  "project_name": "ResearchLab Llama Vision Pilot",
+  "lab_context": "ResearchLab",
+  "use_case": "Analyze scientific figures, screenshots, and postharvest crop images for research communication and manuscript improvement",
+  "visual_task_type": "scientific figure and postharvest crop image",
+  "image_source": "manuscript figures, conceptual diagrams, screenshots, and crop photos",
+  "expected_outputs": "description, critique, visual evidence extraction, limitation statement, and improvement suggestions",
+  "inputs_reviewed": {
+    "complexity_level": "high",
+    "image_count": "3",
+    "scientific_risk": "high",
+    "cost_sensitivity": "medium",
+    "latency_sensitivity": "medium",
+    "human_review_need": "always",
+    "deployment_preference": "hybrid"
+  },
+  "recommended_option": "Human expert review",
+  "scores": {
+    "Llama 3.2 11B Vision": 3,
+    "Llama 3.2 90B Vision": 17,
+    "Claude/GPT Vision fallback": 7,
+    "Human expert review": 9,
+    "Hybrid vision workflow": 17
+  },
+  "model_guidance": "Use when the image output can affect scientific claims, manuscript decisions, grant strategy, farmer-facing guidance, or institutional decisions.",
+  "workflow_steps": [
+    "Define the visual question before sending the image to the model.",
+    "Check whether the image contains sensitive, unpublished, or identifying information.",
+    "Provide context such as crop, figure type, experiment, or manuscript section.",
+    "Ask the model to describe visible evidence before interpreting it.",
+    "Separate observation from interpretation.",
+    "Require uncertainty statements when the image is unclear.",
+    "Use human expert review before using outputs in manuscripts, grants, reports, or farmer-facing advice.",
+    "Log the prompt, model used, image type, output, and reviewer notes.",
+    "Ask the model to identify figure components, arrows, labels, variables, and relationships.",
+    "Check whether the model misreads labels or invents missing information.",
+    "Use the output to improve clarity, not as final scientific validation.",
+    "Ask the model to describe visible maturity, colour, defects, bruising, or handling features.",
+    "Do not allow the model to infer internal quality without supporting measurements.",
+    "Require expert validation for maturity or quality interpretation."
+  ],
+  "safety_rules": [
+    "Do not treat image interpretation as scientific proof.",
+    "Do not infer internal quality from external images without validation.",
+    "Do not invent labels, values, methods, or experimental details.",
+    "Do not use visual outputs directly in manuscripts without expert review.",
+    "Do not expose confidential manuscript figures, student work, or unpublished data to external APIs unless approved.",
+    "For farmer-facing recommendations, require human expert validation.",
+    "For screenshots, avoid exposing emails, API keys, private names, or credentials.",
+    "Always distinguish visible observation from interpretation."
+  ],
+  "researchlab_guidance": [
+    "Use Llama 3.2 Vision for first-pass visual inspection of figures, screenshots, diagrams, and crop images.",
+    "Use stronger vision fallback for complex figure interpretation.",
+    "Use human expert review for manuscript, grant, or farmer-facing conclusions.",
+    "Use visual AI to support observation and clarity, not to replace postharvest expertise.",
+    "Pair image interpretation with measured data wherever possible."
+  ]
+}

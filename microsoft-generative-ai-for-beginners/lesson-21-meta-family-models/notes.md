@@ -42,3 +42,13 @@ The app recommends whether to use Llama 3.1 70B function calling, Llama 3.1 405B
 It generates a function-calling architecture including tool schemas, call pattern, safety rules, and implementation steps.
 
 This supports Lesson 21 by adapting Llama 3.1 native function calling into ResearchLab, Business Ops, and Trading Lab workflows.
+
+## Build 3: Llama Vision Workflow Planner
+
+I built a Llama vision workflow planner.
+
+The app recommends whether a visual task should use Llama 3.2 11B Vision, Llama 3.2 90B Vision, Claude/GPT Vision fallback, human expert review, or a hybrid vision workflow.
+
+It supports scientific figure interpretation, screenshot analysis, diagram review, postharvest crop image analysis, table and chart understanding, and visual evidence extraction.
+
+This supports Lesson 21 by adapting Llama 3.2 Vision into ResearchLab visual workflows while keeping human expert review for high-risk scientific outputs.
