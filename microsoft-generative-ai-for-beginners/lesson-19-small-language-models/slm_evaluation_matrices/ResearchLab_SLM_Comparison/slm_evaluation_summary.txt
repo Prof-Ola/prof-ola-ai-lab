@@ -1,0 +1,27 @@
+SLM Evaluation Matrix
+
+Project:
+ResearchLab SLM Comparison
+
+Models to test:
+ResearchLab SLM Comparison
+
+Generated files:
+1. slm_evaluation_matrix.csv
+2. slm_evaluation_scorecard.csv
+3. slm_model_comparison_summary.csv
+4. slm_deployment_decision_matrix.csv
+
+Recommended workflow:
+1. Run the same prompts across each SLM.
+2. Record actual outputs.
+3. Score outputs using the scorecard.
+4. Compare average scores.
+5. Decide which model is suitable for ResearchLab, Business Ops, or Trading Lab.
+6. Keep LLM fallback and human review for complex or high-risk outputs.
+
+Operating rule:
+Use SLMs for low-cost, low-risk, local tasks.
+Use RAG + SLM for grounded knowledge-base tasks.
+Use LLM fallback for complex reasoning.
+Use human review for high-impact decisions.

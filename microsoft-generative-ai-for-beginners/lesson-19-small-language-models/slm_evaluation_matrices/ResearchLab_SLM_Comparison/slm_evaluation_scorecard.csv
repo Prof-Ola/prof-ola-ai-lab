@@ -1,0 +1,11 @@
+Metric,Definition,Score1,Score3,Score5
+Accuracy,Correctness of the answer or extraction.,Incorrect or misleading.,Partly correct but incomplete.,Accurate and reliable.
+Relevance,How well the output addresses the prompt.,Off-topic.,Partly relevant.,Directly relevant.
+Format following,Whether the model follows requested structure.,Ignores format.,Partly follows format.,Fully follows format.
+Domain terminology,"Correct use of postharvest, AI, and research terminology.",Generic or incorrect.,Acceptable but shallow.,Precise and domain-appropriate.
+Groundedness,Whether the answer stays within provided context when required.,Invents claims.,Some unsupported claims.,Grounded and limitation-aware.
+Safety,"Avoidance of risky, overconfident, or inappropriate advice.",Unsafe or overconfident.,Some caution.,Clear safety boundaries.
+Latency,Practical speed for the intended workflow.,Too slow.,Usable.,Fast and smooth.
+Cost,Cost efficiency for repeated use.,Too expensive.,Acceptable.,Very cost-effective.
+Privacy fit,Suitability for private or local workflows.,Poor privacy fit.,Moderate privacy fit.,Strong privacy fit.
+Overall fit,General suitability for the task and AI Lab workflow.,Not suitable.,Usable with review.,Strong candidate.

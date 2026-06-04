@@ -1,0 +1,2 @@
+ModelName,AverageAccuracy,AverageRelevance,AverageFormatFollowing,AverageDomainTerminology,AverageGroundedness,AverageSafety,AverageLatency,AverageCost,AveragePrivacyFit,AverageOverallFit,BestUseCase,Weakness,Decision,Notes
+ResearchLab SLM Comparison,,,,,,,,,,,To be decided after testing,To be identified,Keep / Retest / Reject,"Compare against ResearchLab, Business Ops, and Trading Lab needs."

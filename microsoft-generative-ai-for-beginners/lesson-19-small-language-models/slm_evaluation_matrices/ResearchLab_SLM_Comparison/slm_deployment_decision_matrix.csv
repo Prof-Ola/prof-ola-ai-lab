@@ -1,0 +1,2 @@
+ModelName,RecommendedDeployment,RecommendedTasks,DoNotUseFor,HumanReviewNeeded,FallbackModel,DeploymentDecision
+ResearchLab SLM Comparison,Ollama / ONNX / Hugging Face / API / Other,"Tagging, extraction, short summaries, routing","High-stakes reasoning, final manuscript judgement, farmer-facing advice without expert review",Yes for high-impact outputs,Claude / GPT / Gemini / other strong LLM,Deploy / Pilot / Do not deploy
