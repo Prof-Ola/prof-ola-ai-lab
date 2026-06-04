@@ -31,3 +31,13 @@ SLM Use-Case Fit Advisor.
 ## Main Lesson
 
 Small Language Models are useful when tasks are simple, repetitive, local, private, low-cost, or latency-sensitive. They should not replace stronger LLMs for complex reasoning, high-stakes synthesis, or final academic judgement.
+
+## Build 2: Phi Model Deployment Planner
+
+I built a Phi model deployment planner.
+
+The app recommends a Phi-3 or Phi-3.5 model option and deployment route based on task type, modality, complexity, hardware, privacy, cost, latency, offline needs, multilingual needs, vision needs, scale, and preferred platform.
+
+It supports options such as Phi-3 mini, Phi-3.5 mini, Phi Vision, Phi MoE, Ollama, ONNX Runtime, Hugging Face, GitHub Models, Azure AI Studio, and NVIDIA NIM.
+
+This supports Lesson 19 by helping decide how small language models can be deployed practically for ResearchLab, Business Ops, and local AI workflows.
